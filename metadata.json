@@ -1,0 +1,6 @@
+{
+  "name": "Kreuz Garage Gebr. Görgin GmbH",
+  "description": "Garage with service station, workshop, café shop and vehicle services in Haag, Switzerland.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

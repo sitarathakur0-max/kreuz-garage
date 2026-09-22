@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-condensed: 'Barlow Condensed', -apple-system, BlinkMacSystemFont, sans-serif;
+    --font-sans: 'DM Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: #F8F7F4;
+    color: #1C2321;
+  }
+
+  .font-display {
+    font-family: var(--font-condensed);
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+  }
+}
+
+/* Custom retro-modern service station road line & badge patterns */
+.road-line-pattern {
+  background-image: repeating-linear-gradient(
+    90deg,
+    transparent,
+    transparent 14px,
+    rgba(229, 169, 60, 0.45) 14px,
+    rgba(229, 169, 60, 0.45) 26px
+  );
+}
+
+.road-line-vertical {
+  background-image: repeating-linear-gradient(
+    0deg,
+    transparent,
+    transparent 12px,
+    rgba(229, 169, 60, 0.35) 12px,
+    rgba(229, 169, 60, 0.35) 24px
+  );
+}
+
